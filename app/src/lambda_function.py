@@ -7,6 +7,6 @@ logger.setLevel(logging.INFO)
 
 
 def handler(event, context):
-    logger.info('f{event}, iniciando da função EC2')
+    logger.info('f{event}, iniciando função EC2')
 
     ec2_handler.lambda_handler_ec2(event)
